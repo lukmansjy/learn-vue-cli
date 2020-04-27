@@ -13,7 +13,7 @@ export default new Router({
             component: ()=>import("./components/post/Index")
         },
         {
-            path: '/post-add',
+            path: '/add',
             name: "post-add",
             component: ()=>import("./components/post/Add")
         },
